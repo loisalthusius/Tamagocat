@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Honk&display=swap');
+
+body {
+  font-family:Russo One;
+  text-align: center;
+  background-color: #ffe6f0;
+    cursor: url('images/kattenpoot.svg'), auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.top-options,
+.bottom-options {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+button {
+  font-family:honk;
+  margin: 1.2%;
+  padding: 0.8%;
+  font-size: 1.4rem;
+     cursor: url('images/kattenpoot-rug.svg'), auto;
+  background-color: #ffb3cc;
+  border: none;
+  border-radius: 0.4em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff80aa;
+}
+
+#start-screen{
+font-size: 1.2rem;
+}
+
+#start-screen img {
+  width: 380px;
+  height: 520px; 
+    margin-top: 2%; 
+}
+
+#game-screen{
+font-size: 1.2rem;
+}
+
+#cat-image {
+  width: 240px;        
+  height: 360px;       
+  object-fit: contain;  /* behoudt de aspect-ratio en centreert */
+  transition: all 0.3s ease;
+}
+
+#start-button {
+  font-size: 2rem;
+  background-color: #ff99bb;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mood-container, #health-container {
+  width: 20%;
+  margin: 1em auto;
+}
+
+#mood-bar, #health-bar {
+  background-color: #878383;
+  border-radius: 2em;
+  height: 1em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mood-fill, .health-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
