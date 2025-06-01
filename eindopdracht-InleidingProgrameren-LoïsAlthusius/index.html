@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Tamagocat</title>
+</head>
+
+<body>
+  <!-- Startscherm -->
+   <div id="start-screen">
+    <h1> Zorg voor Tamagocat</h1>
+    <img src="images/de-geprogrammeerde-kat.svg" alt="een kat met een bordje die zegt welkom in mijn leven">
+  <button id="start-button">Start</button>
+  </div>
+
+  <!-- Game scherm -->
+  <div id="game-screen">
+   <!-- Moodbalk -->
+<div id="mood-container">
+ <p>Mood</p>
+ <div id="mood-bar" data-mood="general">
+  <div class="mood-fill"></div>
+ </div>
+</div>
+
+
+ <!-- healthbar -->
+<div id="health-container">
+  <p>Health</p>
+  <div id="health-bar">
+    <div class="health-fill"></div>
+  </div>
+</div>
+
+    <div class="top-options">
+      <button class="action-button" data-action="feed">Voeden</button>
+      <button class="action-button" data-action="play">Spelen</button>
+      <button class="action-button" data-action="cuddle">Knuffelen</button>
+      <button class="action-button" data-action="wash">Wassen</button>
+  </div>
+
+ <img id="cat-image" src="images/kat-neutraal.svg" alt="afbeelding van de kat in neutrale toestand">
+
+    <div class="bottom-options">
+      <button class="action-button" data-action="sleep">Slapen</button>
+      <button class="action-button" data-action="vet">Dierenarts</button>
+      <button class="action-button" data-action="sing">Zingen</button>
+      <button class="action-button" data-action="dance">Dansen</button>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
