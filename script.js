@@ -10,7 +10,7 @@ let healthValue = 100; //startwaarde health
 
 const happyMusic = new Audio('sounds/happy.mp3');
 happyMusic.loop = true;
-happyMusic.volume = 0.3;
+happyMusic.volume = 0.1;
 
 const sadMusic = new Audio('sounds/sad.mp3');
 sadMusic.loop = true;
